@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import './NavBar.css'
 const NavBar = () => {
 
     const [homeActive, setHomeActive] = useState(false);
@@ -34,7 +34,7 @@ const NavBar = () => {
 
 
     return (
-        <div className="ui fluid four item menu">
+        <div className="ui fluid four item menu ar">
             <a onClick={() => home()}
                 className={homeActive ? "item active" : "item"}>
                 Home

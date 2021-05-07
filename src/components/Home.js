@@ -1,13 +1,15 @@
 import React from 'react';
 import myPic from '../images/picture.jpg'
+import './Home.css'
+import '../site/globals/site.variables';
 const Home = () => {
     return (
         <div>
-            <div className="ui segment">
+            <div className="ui segment primary">
                 <div className="ui sizer vertical segment">
                     <div className="ui centered huge header">My Portfolio</div>
                 </div>
-                <div className="ui centered card">
+                <div className="ui centered card black">
                     <div className="image">
                         <img src={myPic} />
                     </div>
@@ -17,7 +19,7 @@ const Home = () => {
                 </div>
             </div>
 
-            <div className="ui raised very padded text container segment">
+            <div className="ui black raised very padded text container segment">
                 <h1 className="ui centered header"><u><b>My Experience</b></u></h1>
                 <h3 className="ui centered header"><u>Work Experience</u></h3>
                 <p><center><u>Student Work Study 8/2018 - 6/2020</u></center>
@@ -49,6 +51,7 @@ const Home = () => {
                     it as we ended up taking 2nd place in the HackTx Wayfair: Hack for Housing Inequality
                      challenge!
                 </center></p>
+                
             </div>
         </div>
     )

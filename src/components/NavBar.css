@@ -1,0 +1,19 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(117, 14, 14);
+}
+
+#ar {
+    background-color: rgb(117, 14, 14);
+}
+
+.ar {
+    background-color: rgb(117, 14, 14);
+}
