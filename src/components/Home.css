@@ -10,6 +10,21 @@ body {
     background-color: rgb(117, 14, 14);
 }
 
-#cso {
-    background-color: rgb(117, 14, 14);
+.ui.segment:first-child {
+    margin-top: 0;
+    background: rgb(117,14,14);
+    border: none;
+}
+
+.ui.vertical.segment {
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+    background: none transparent;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: none;
+    border-bottom: none transparent;
+    font-size: 35px;
 }
