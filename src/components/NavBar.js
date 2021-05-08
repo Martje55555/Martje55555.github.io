@@ -1,31 +1,37 @@
 import React, { useState } from 'react';
+import { NavLink, Redirect, useHistory } from 'react-router-dom';
 import './NavBar.css'
 const NavBar = () => {
-
+    const history = useHistory();
     const [homeActive, setHomeActive] = useState(false);
     const [aboutMeActive, setAboutHomeActive] = useState(false);
     const [projectsActive, setProjectsActive] = useState(false);
     const [contactMeActive, setContactMeActive] = useState(false);
-    
+
     const home = () => {
+        history.push('/Home');
         setHomeActive(!homeActive);
         setAboutHomeActive(false);
         setProjectsActive(false);
         setContactMeActive(false);
+
     }
     const aboutMe = () => {
+        history.push('/AboutMe');
         setHomeActive(false);
         setAboutHomeActive(!aboutMeActive);
         setProjectsActive(false);
         setContactMeActive(false);
     }
     const projects = () => {
+        history.push('/Projects');
         setHomeActive(false);
         setAboutHomeActive(false);
         setProjectsActive(!projectsActive);
         setContactMeActive(false);
     }
     const contactMe = () => {
+        history.push('/ContactMe');
         setHomeActive(false);
         setAboutHomeActive(false);
         setProjectsActive(false);
@@ -38,19 +44,23 @@ const NavBar = () => {
             <a onClick={() => home()}
                 className={homeActive ? "item active" : "item"}>
                 Home
-                </a>
-            <a onClick={() => aboutMe()}
+            </a>
+
+            <a onClick={() => aboutMe() }
                 className={aboutMeActive ? "item active" : "item"}>
-                About Me
-                </a>
+                    About Me
+            </a>
+
             <a onClick={() => projects()}
                 className={projectsActive ? "item active" : "item"}>
                 Projects
-                </a>
+            </a>
+
             <a onClick={() => contactMe()}
                 className={contactMeActive ? "item active" : "item"}>
-                Contact Me
-                </a>
+                    Contact Me
+            </a>
+
         </div>
     )
 }

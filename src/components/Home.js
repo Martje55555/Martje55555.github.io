@@ -10,8 +10,8 @@ const Home = () => {
                     <div className="ui centered huge header">My Portfolio</div>
                 </div>
                 <div className="ui centered card black">
-                    <div className="image">
-                        <img src={myPic} />
+                    <div className="medium image">
+                        <img src={myPic} alt="pictureofMe" />
                     </div>
                     <div className="content">
                         <a className="header"><center>Jesus Martinez</center></a>
@@ -51,8 +51,8 @@ const Home = () => {
                     it as we ended up taking 2nd place in the HackTx Wayfair: Hack for Housing Inequality
                      challenge!
                 </center></p>
-                
             </div>
+            <div></div>
         </div>
     )
 }
