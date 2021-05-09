@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { NavLink, Redirect, useHistory } from 'react-router-dom';
+import { useHistory } from 'react-router-dom';
 import './NavBar.css'
 const NavBar = () => {
     const history = useHistory();
@@ -46,9 +46,9 @@ const NavBar = () => {
                 Home
             </a>
 
-            <a onClick={() => aboutMe() }
+            <a onClick={() => aboutMe()}
                 className={aboutMeActive ? "item active" : "item"}>
-                    About Me
+                About Me
             </a>
 
             <a onClick={() => projects()}
@@ -58,7 +58,7 @@ const NavBar = () => {
 
             <a onClick={() => contactMe()}
                 className={contactMeActive ? "item active" : "item"}>
-                    Contact Me
+                Contact Me
             </a>
 
         </div>

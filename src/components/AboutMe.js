@@ -1,7 +1,5 @@
 import React from 'react';
 import './AboutMe.css';
-import babyMe from '../images/babyMe.jpg';
-import gradPic from '../images/grad.jpg';
 import combined from '../images/babyMeandOlderMe.jpg'
 
 const AboutMe = () => {
@@ -20,7 +18,7 @@ const AboutMe = () => {
                         </div>
                         <div className="column">
                             <div className="ui compact text container segment">
-                                <p><center><b>
+                            <center><p><b>
                                     I come from a family of 6 in a small city in Texas called Alton.
                                     I attended High School at Mission High School and graduated in 2018.
                                     I graduated as a Mission Merit, and in the top 10% of my class. I am
@@ -32,7 +30,7 @@ const AboutMe = () => {
                                     The job searching experience has been tough so far, but some of my greatest strengths
                                     include patience, commitment, hard work and dedication, which will help greatly in my
                                     job searching.
-                            </b></center></p>
+                            </b></p></center>
                             </div>
                         </div>
                     </div>
@@ -45,17 +43,3 @@ const AboutMe = () => {
 }
 
 export default AboutMe;
-
-
-{/* <div className="ui centered card black">
-                    <div className="large image">
-                        <img src={combined} alt="baby" />
-                    </div>
-
-                    <div className="description right floated">
-                        <p>Cute dogs come in a variety of shapes and sizes. Some cute dogs are cute for their adorable
-                        faces, others for their tiny stature, and even others for their massive size.</p>
-                        <p>Many people also have their own barometers for what makes a cute dog.</p>
-                    </div>
-
-                </div> */}
