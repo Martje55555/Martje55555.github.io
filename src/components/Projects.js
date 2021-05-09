@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import HomeMeSlides from '../images/HomeMeSlides.pdf';
 import HangManSlides from '../images/Hangman.pdf';
+import MeowBotSlides from '../images/MeowBot.pdf'
 import PdfHandler from './PdfHandler.js';
 import './Projects.css';
 const Projects = () => {
@@ -19,6 +20,16 @@ const Projects = () => {
     const HomeMeGitHub = () => {
         window.open("https://github.com/Martje55555/HomeMeUpdated") ||
             window.location.replace("https://github.com/Martje55555/HomeMeUpdated")
+    }
+
+    const meowBotGitHub = () => {
+        window.open("https://github.com/Martje55555/MeowBot") ||
+            window.location.replace("https://github.com/Martje55555/MeowBot")
+    }
+
+    const meowBotAdd = () => {
+        window.open("https://discord.com/oauth2/authorize?client_id=835357310540972052&scope=bot&permissions=2150945792") ||
+            window.location.replace("https://discord.com/oauth2/authorize?client_id=835357310540972052&scope=bot&permissions=2150945792")
     }
 
     return (
@@ -106,8 +117,36 @@ const Projects = () => {
                 </div>
             </center>
 
+            <PdfHandler fileName={MeowBotSlides} />
 
+            <center>
+                <div className="ui card" style={{ marginBottom: '5%' }}>
+                    <div className="content">
+                        <div className="header"> Meow Bot</div>
+                        <div className="description">
+                            <p style={{ fontSize: '15px' }}>
+                                Simple Discord Bot created just for fun, initially was just for returning cute cat images or gifs. Adding more features soon as I keep learning about the discord.js node module.
+                                <b>Add the bot to your Discord Server Below</b>
+                            </p>
+                        </div>
+                    </div>
+                    <div className="ui buttons">
 
+                        <button className="ui grey button"
+                            onClick={() => meowBotGitHub()}
+                        >
+                            GitHub
+                        </button>
+                        <button className="ui blue button"
+                            onClick={() => meowBotAdd()}
+                        >
+                            Add Bot
+                        </button>
+                    </div>
+
+                </div>
+            </center>
+            <br />
         </div >
     )
 }
