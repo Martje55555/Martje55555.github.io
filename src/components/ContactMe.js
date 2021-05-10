@@ -12,7 +12,7 @@ const ContactMe = () => {
 
     return (
 
-        <div>
+        <div style={{marginTop:'3%'}}>
             <HandleEmail image={gImage} email='Martje0629@gmail.com' emailType='Personal Email' />
 
             <div className="ui link cards centered">
