@@ -1,6 +1,6 @@
 import React from 'react';
 import './AboutMe.css';
-import combined from '../images/babyMeandOlderMe.jpg'
+import combined from '../public/images/babyMeandOlderMe.jpg';
 
 const AboutMe = () => {
 

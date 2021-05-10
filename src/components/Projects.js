@@ -1,8 +1,7 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import HomeMeSlides from '../images/HomeMeSlides.pdf';
-import HangManSlides from '../images/Hangman.pdf';
-import MeowBotSlides from '../images/MeowBot.pdf'
+import HomeMeSlides from '../public/images/HomeMeSlides.pdf';
+import HangManSlides from '../public/images/Hangman.pdf';
+import MeowBotSlides from '../public/images/MeowBot.pdf'
 import PdfHandler from './PdfHandler.js';
 import './Projects.css';
 const Projects = () => {

@@ -1,5 +1,5 @@
 import React from 'react';
-import utrgv from '../images/UTRGV.jpg';
+import utrgv from '../public/images/UTRGV.jpg';
 const HandleEmail = ({image, email, emailType}) => {
 
     const handleEmail = (email) => {

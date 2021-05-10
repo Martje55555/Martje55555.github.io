@@ -1,6 +1,6 @@
 import React from 'react';
-import gImage from '../images/newgmaillogo.jpg';
-import linkedIn from '../images/linkedin.png';
+import gImage from '../public/images/newgmaillogo.jpg';
+import linkedIn from '../public/images/linkedin.png';
 import HandleEmail from './HandleEmail.js';
 
 const ContactMe = () => {

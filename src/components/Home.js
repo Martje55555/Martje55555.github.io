@@ -1,5 +1,5 @@
 import React from 'react';
-import myPic from '../images/picture.jpg'
+import myPic from '../public/images/picture.jpg'
 import './Home.css'
 import '../site/globals/site.variables';
 const Home = () => {
