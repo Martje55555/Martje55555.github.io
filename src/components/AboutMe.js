@@ -24,12 +24,9 @@ const AboutMe = () => {
                                     I graduated as a Mission Merit, and in the top 10% of my class. I am
                                     currently a junior attending the University of Texas Rio Grande Valley,
                                     pursuing a degree in Computer Engineering. When I am not studying I enjoy
-                                    playing video games, watching sports and training Brazilian Jiu-Jitsu. Currently
-                                    I am looking for a role where I can help contribute and make an impact, while at
-                                    the same time grow my career skills and learn from other experienced team members.
-                                    The job searching experience has been tough so far, but some of my greatest strengths
-                                    include patience, commitment, hard work and dedication, which will help greatly in my
-                                    job searching.
+                                    playing video games, watching sports and training Brazilian Jiu-Jitsu. I am currently 
+                                    a Software Engineer Intern at <a href="https://www.lob.com/" target="_blank">Lob </a>
+                                    where we build APIs to Increase Connectivity Between the Offline and Online Worlds.
                             </b></p></center>
                             </div>
                         </div>
