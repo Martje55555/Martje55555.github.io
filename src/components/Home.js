@@ -22,6 +22,15 @@ const Home = () => {
             <div className="ui black raised very padded text container segment">
                 <h1 className="ui centered header"><u><b>My Experience</b></u></h1>
                 <h3 className="ui centered header"><u>Work Experience</u></h3>
+
+                <center><p><u>Software Engineer Intern <a target='_blank' href={'https://www.lob.com/'}>@Lob</a>  6/2021 - 8/2021</u></p></center>
+                <center><p>Improved and maintained existing API offerings to provide the best possible service and experience for Lob customers.
+Most recent assignment I worked on was creating endpoints for customers to redact personal information from our DBs (to comply with the GDPR) and integrating said endpoints
+to our API. Previously the way user data was being handled was to manually go into the production database and redact it. Which in practice is
+ a big no no. Now with the new endpoints, all that needs to be done is hit it with the correct auth and payload to complete the redaction.
+
+                </p></center>
+
                 <center><p><u>Student Work Study 8/2018 - 6/2020</u></p></center>
                 <center><p>I was in charge of monitoring a building that contained practice
                 rooms and a computer lab for music majors to use. I made
@@ -34,9 +43,9 @@ const Home = () => {
                 <center><p><u>Google KickStart Round F 2020</u></p></center>
                 <center><p>Participated in a global online coding competition, consisting
                 of three-hour rounds of a variety of algorithmic challenges designed by
-                google engineers.This was my first hackathon that I attended. It was a fun
-                experience, I wasn't very successful in the competition, but the important
-                thing was that I had fun with the challenge and learned from the experience.
+                google engineers. It was a fun experience, I wasn't very successful in the 
+                competition, but the important thing was that I had fun with the challenge 
+                and learned from the experience.
                     </p> </center>
 
                 <center> <p><u>HackTX 2020</u></p></center>
