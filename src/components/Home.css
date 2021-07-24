@@ -1,0 +1,35 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    background-color: rgb(117, 14, 14);
+}
+
+.ui.segment:first-child {
+    margin-top: 0;
+    background: rgb(117,14,14);
+    border: none;
+    border-radius: 0;
+}
+
+.ui.vertical.segment {
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+    background: none transparent;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: none;
+    border-bottom: none transparent;
+    font-size: 35px;
+}
+
+.ui.black.raised.very.padded.text.container.segment {
+    margin-top:0;
+    margin-bottom: 0;
+    border-radius: 0;
+    border: none transparent;
+}
