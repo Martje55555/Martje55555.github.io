@@ -9,7 +9,7 @@ script:
 deploy:
   provider: pages
   skip_cleanup: true
-  github_token: g_TOKEN
+  github_token: $GITHUB_TOKEN
   keep_history: true
   on:
     branch: main
