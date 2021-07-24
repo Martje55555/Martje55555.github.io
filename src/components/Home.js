@@ -6,9 +6,9 @@ const Home = () => {
     return (
         <div>
             <div className="ui segment primary">
-                <div className="ui sizer vertical segment">
+                {/* <div className="ui sizer vertical segment">
                     <div className="ui centered huge header">My Portfolio</div>
-                </div>
+                </div> */}
                 <div className="ui centered card black">
                     <div className="medium image">
                         <img src={myPic} alt="pictureofMe" />
