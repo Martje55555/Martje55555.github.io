@@ -8,7 +8,7 @@ const AboutMe = () => {
         <div>
             <div className="ui segment primary">
                 <div className="ui sizer vertical segment">
-                    <div className="ui centered huge header">About Me</div>
+                   
                 </div>
 
                 <div className="customSpacing">

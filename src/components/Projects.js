@@ -34,7 +34,7 @@ const Projects = () => {
     return (
         <div>
             <div className="ui sizer vertical segment">
-                <div className="ui centered huge header">My Projects</div>
+               
             </div>
 
             <PdfHandler fileName={HomeMeSlides} />
