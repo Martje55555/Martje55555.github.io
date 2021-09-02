@@ -1,6 +1,7 @@
 import React from 'react';
-import myPic from '../public/images/picture.jpg'
-import './Home.css'
+import myPic from '../public/images/picture.jpg';
+import my2ndPic from '../public/images/secondPic.png';
+import './Home.css';
 import '../site/globals/site.variables';
 const Home = () => {
     return (
@@ -11,7 +12,7 @@ const Home = () => {
                 </div> */}
                 <div className="ui centered card black">
                     <div className="medium image">
-                        <img src={myPic} alt="pictureofMe" />
+                        <img src={my2ndPic} alt="pictureofMe" />
                     </div>
                     <div className="content">
                         <a className="header"><center>Jesus Martinez</center></a>
@@ -22,6 +23,11 @@ const Home = () => {
             <div className="ui black raised very padded text container segment">
                 <h1 className="ui centered header"><u><b>My Experience</b></u></h1>
                 <h3 className="ui centered header"><u>Work Experience</u></h3>
+
+                <center><p><u>Data Structures & Algorithms Teacher Assistant 9/2021 - 12/2021</u></p></center>
+                <center><p> 
+                TA for the Computer Science department at UTRGV for the Data Structures & Algorithms course. 
+                </p></center>
 
                 <center><p><u>Software Engineer Intern <a target='_blank' href={'https://www.lob.com/'}>@Lob</a>  6/2021 - 8/2021</u></p></center>
                 <center><p>Improved and maintained existing API offerings to provide the best possible service and experience for Lob customers.
