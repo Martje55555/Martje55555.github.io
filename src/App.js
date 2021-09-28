@@ -15,12 +15,11 @@ const App = () => {
             <HashRouter>
                 <NavBar />
                 <Route exact path="/" component={Home} />
-                <Route path="/Home" component={Home} />
-                <Route path="/AboutMe" component={AboutMe} />
+                <Route path="/AboutMe" component={Home} />
+                <Route path="/MyExperience" component={AboutMe} />
                 <Route path="/Projects" component={Projects} />
                 <Route path="/ContactMe" component={ContactMe} />
             </HashRouter>
-
         </div>
 
     )

@@ -9,7 +9,7 @@ const NavBar = () => {
     const [contactMeActive, setContactMeActive] = useState(false);
 
     const home = () => {
-        history.push('/Home');
+        history.push('/AboutMe');
         setHomeActive(!homeActive);
         setAboutHomeActive(false);
         setProjectsActive(false);
@@ -17,7 +17,7 @@ const NavBar = () => {
 
     }
     const aboutMe = () => {
-        history.push('/AboutMe');
+        history.push('/MyExperience');
         setHomeActive(false);
         setAboutHomeActive(!aboutMeActive);
         setProjectsActive(false);
@@ -43,12 +43,12 @@ const NavBar = () => {
         <div className="ui fluid four item menu ar">
             <a onClick={() => home()}
                 className={homeActive ? "item active" : "item"}>
-                Home
+                About Me
             </a>
 
             <a onClick={() => aboutMe()}
                 className={aboutMeActive ? "item active" : "item"}>
-                About Me
+                My Experience
             </a>
 
             <a onClick={() => projects()}
