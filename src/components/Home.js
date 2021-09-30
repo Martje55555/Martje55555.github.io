@@ -37,8 +37,8 @@ const Home = () => {
                     playing video games, watching sports and training Brazilian Jiu-Jitsu. I previously worked
                     as a Software Engineer Intern at <a href="https://www.lob.com/" target="_blank">Lob </a>
                     where we build APIs to Increase Connectivity Between the Offline and Online Worlds.
-                    I currently work as a TA for the Computer Science department at UTRGV. I am a TA for
-                    the Data Structures & Algorithms course.
+                    I currently work as a TA for the Computer Science department at UTRGV, where I assist with 
+                    the Data Structures and Algorithms course.
                 </b></p></center>
 
             </div>
