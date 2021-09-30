@@ -157,7 +157,7 @@ const Projects = () => {
             <center>
                 <div className="ui card" style={{ marginBottom: '5%' }}>
                     <div className="content">
-                        <div className="header"> Meow Bot</div>
+                        <div className="header"> React Chat App</div>
                         <div className="description">
                             <p style={{ fontSize: '15px' }}>
                                 Simple Chat App created for fun and to learn more about
