@@ -2,6 +2,7 @@ html {
     scroll-behavior: smooth;
 }
 
+
 * {
     box-sizing: border-box;
 }
@@ -10,3 +11,8 @@ body {
     background-color: rgb(117, 14, 14);
 }
 
+@media only screen and (max-width: 600px) {
+    body{
+      display:flex;
+    }
+  }

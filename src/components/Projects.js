@@ -1,7 +1,8 @@
 import React from 'react';
 import HomeMeSlides from '../public/images/HomeMeSlides.pdf';
 import HangManSlides from '../public/images/Hangman.pdf';
-import MeowBotSlides from '../public/images/MeowBot.pdf'
+import MeowBotSlides from '../public/images/MeowBot.pdf';
+import ComingSoon from '../public/images/comingSoon.pdf';
 import PdfHandler from './PdfHandler.js';
 import './Projects.css';
 const Projects = () => {
@@ -31,10 +32,15 @@ const Projects = () => {
             window.location.replace("https://discord.com/oauth2/authorize?client_id=835357310540972052&scope=bot&permissions=2150945792")
     }
 
+    const chatAppGithub = () => {
+        window.open("https://github.com/Martje55555/ReactChatApp") ||
+            window.location.replace("https://github.com/Martje55555/ReactChatApp")
+    }
+
     return (
         <div>
             <div className="ui sizer vertical segment">
-               
+
             </div>
 
             <PdfHandler fileName={HomeMeSlides} />
@@ -63,7 +69,7 @@ const Projects = () => {
                                 is something that I would like to get
                                 done and have it out for anyone who
                                 might find use for it.
-                                </p>
+                            </p>
                         </div>
                     </div>
                     <div className="ui buttons">
@@ -101,7 +107,7 @@ const Projects = () => {
                                 multiple letters are entered, it will only
                                 accept the first letter. You have 7 wrong
                                 attempts until you lose! Goodluck! :)
-                                </p>
+                            </p>
                         </div>
                     </div>
                     <div className="ui buttons">
@@ -141,6 +147,33 @@ const Projects = () => {
                         >
                             Add Bot
                         </button>
+                    </div>
+
+                </div>
+            </center>
+
+            <PdfHandler fileName={ComingSoon} />
+
+            <center>
+                <div className="ui card" style={{ marginBottom: '5%' }}>
+                    <div className="content">
+                        <div className="header"> React Chat App</div>
+                        <div className="description">
+                            <p style={{ fontSize: '15px' }}>
+                                Simple Chat App created for fun and to learn more about
+                                WebSockets. Created using React, Socket.io and Express. < br/>
+                                <b>Link To Github Below</b>
+                            </p>
+                        </div>
+                    </div>
+                    <div className="ui buttons">
+
+                        <button className="ui grey button"
+                            onClick={() => chatAppGithub()}
+                        >
+                            GitHub
+                        </button>
+                        
                     </div>
 
                 </div>
