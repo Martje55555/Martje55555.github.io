@@ -1,5 +1,6 @@
 import React from 'react';
-import './AboutMe.css';
+//import './AboutMe.css';
+import './Home.css';
 import combined from '../public/images/babyMeandOlderMe.jpg';
 import lobSign from '../public/images/lobSign.jpg';
 

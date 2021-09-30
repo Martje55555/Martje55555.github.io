@@ -2,7 +2,8 @@ import React from 'react';
 import myPic from '../public/images/picture.jpg';
 import combined from '../public/images/babyMeandOlderMe.jpg';
 import my2ndPic from '../public/images/secondPic.png';
-import './Home.css';
+//import './Home.css';
+import './AboutMe.css';
 import '../site/globals/site.variables';
 const Home = () => {
     const disable = document.querySelector('.disabled');
