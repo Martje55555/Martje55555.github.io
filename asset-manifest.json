@@ -1,22 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.042fbca4.chunk.css",
-    "main.js": "/static/js/main.98c022ab.chunk.js",
-    "main.js.map": "/static/js/main.98c022ab.chunk.js.map",
+    "main.css": "/static/css/main.074a15c8.chunk.css",
+    "main.js": "/static/js/main.2a76a7a9.chunk.js",
+    "main.js.map": "/static/js/main.2a76a7a9.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b83279d6.js",
     "runtime-main.js.map": "/static/js/runtime-main.b83279d6.js.map",
-    "static/js/2.0c419495.chunk.js": "/static/js/2.0c419495.chunk.js",
-    "static/js/2.0c419495.chunk.js.map": "/static/js/2.0c419495.chunk.js.map",
-    "bfd7bae0dfed9598ea7852001dbacd48.js": "/bfd7bae0dfed9598ea7852001dbacd48.js",
-    "bfd7bae0dfed9598ea7852001dbacd48.js.LICENSE.txt": "/bfd7bae0dfed9598ea7852001dbacd48.js.LICENSE.txt",
+    "static/js/2.99dd9c32.chunk.js": "/static/js/2.99dd9c32.chunk.js",
+    "static/js/2.99dd9c32.chunk.js.map": "/static/js/2.99dd9c32.chunk.js.map",
+    "7dae1486d4297c2cbb8889831c19d8b4.js": "/7dae1486d4297c2cbb8889831c19d8b4.js",
+    "7dae1486d4297c2cbb8889831c19d8b4.js.LICENSE.txt": "/7dae1486d4297c2cbb8889831c19d8b4.js.LICENSE.txt",
     "index.html": "/index.html",
-    "static/css/main.042fbca4.chunk.css.map": "/static/css/main.042fbca4.chunk.css.map",
-    "static/js/2.0c419495.chunk.js.LICENSE.txt": "/static/js/2.0c419495.chunk.js.LICENSE.txt",
+    "static/css/main.074a15c8.chunk.css.map": "/static/css/main.074a15c8.chunk.css.map",
+    "static/js/2.99dd9c32.chunk.js.LICENSE.txt": "/static/js/2.99dd9c32.chunk.js.LICENSE.txt",
     "static/media/Hangman.7b4f3cc0.pdf": "/static/media/Hangman.7b4f3cc0.pdf",
     "static/media/HomeMeSlides.92388199.pdf": "/static/media/HomeMeSlides.92388199.pdf",
     "static/media/MeowBot.53fa97d6.pdf": "/static/media/MeowBot.53fa97d6.pdf",
     "static/media/UTRGV.ba834c70.jpg": "/static/media/UTRGV.ba834c70.jpg",
     "static/media/babyMeandOlderMe.7bcc11dc.jpg": "/static/media/babyMeandOlderMe.7bcc11dc.jpg",
+    "static/media/comingSoon.40aee46c.pdf": "/static/media/comingSoon.40aee46c.pdf",
+    "static/media/lobSign.fba477ab.jpg": "/static/media/lobSign.fba477ab.jpg",
     "static/media/newgmaillogo.e1e8aba8.jpg": "/static/media/newgmaillogo.e1e8aba8.jpg",
     "static/media/picture.c9f293a1.jpg": "/static/media/picture.c9f293a1.jpg",
     "static/media/secondPic.49b81cf1.png": "/static/media/secondPic.49b81cf1.png",
@@ -24,8 +26,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.b83279d6.js",
-    "static/js/2.0c419495.chunk.js",
-    "static/css/main.042fbca4.chunk.css",
-    "static/js/main.98c022ab.chunk.js"
+    "static/js/2.99dd9c32.chunk.js",
+    "static/css/main.074a15c8.chunk.css",
+    "static/js/main.2a76a7a9.chunk.js"
   ]
 }
