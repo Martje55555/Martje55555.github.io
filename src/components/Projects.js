@@ -5,37 +5,48 @@ import MeowBotSlides from '../public/images/MeowBot.pdf';
 import ComingSoon from '../public/images/comingSoon.pdf';
 import PdfHandler from './PdfHandler.js';
 import './Projects.css';
+
 const Projects = () => {
 
     const hangManRedirect = () => {
         window.open("https://hangman-jem.herokuapp.com/home") ||
             window.location.replace("https://hangman-jem.herokuapp.com/home")
-    }
+    };
 
     const HomeMeDevPost = () => {
         window.open("https://devpost.com/software/homeme-u92h18") ||
             window.location.replace("https://devpost.com/software/homeme-u92h18")
-    }
+    };
 
     const HomeMeGitHub = () => {
         window.open("https://github.com/Martje55555/HomeMeUpdated") ||
             window.location.replace("https://github.com/Martje55555/HomeMeUpdated")
-    }
+    };
 
     const meowBotGitHub = () => {
         window.open("https://github.com/Martje55555/MeowBot") ||
             window.location.replace("https://github.com/Martje55555/MeowBot")
-    }
+    };
 
     const meowBotAdd = () => {
         window.open("https://discord.com/oauth2/authorize?client_id=835357310540972052&scope=bot&permissions=2150945792") ||
             window.location.replace("https://discord.com/oauth2/authorize?client_id=835357310540972052&scope=bot&permissions=2150945792")
-    }
+    };
 
     const chatAppGithub = () => {
         window.open("https://github.com/Martje55555/ReactChatApp") ||
             window.location.replace("https://github.com/Martje55555/ReactChatApp")
-    }
+    };
+
+    const HackTx2021 = () => {
+        window.open("https://github.com/Martje55555/HackTx2021") ||
+            window.location.replace("https://github.com/Martje55555/HackTx2021");
+    };
+
+    const HackTx2021DevPost = () => {
+        window.open("https://devpost.com/software/space-travel") ||
+            window.location.replace("https://devpost.com/software/space-travel");
+    };
 
     return (
         <div>
@@ -106,7 +117,7 @@ const Projects = () => {
                                 anything else is considered invalid. If
                                 multiple letters are entered, it will only
                                 accept the first letter. You have 7 wrong
-                                attempts until you lose! Goodluck! :)
+                                attempts until you lose! Goodluck! &#128515;
                             </p>
                         </div>
                     </div>
@@ -131,7 +142,7 @@ const Projects = () => {
                         <div className="description">
                             <p style={{ fontSize: '15px' }}>
                                 Simple Discord Bot created just for fun, initially was just for returning cute cat images or gifs. Adding more features soon as I keep learning about the discord.js node module.
-                                <b>Add the bot to your Discord Server Below</b>
+                                <b> Add the bot to your Discord Server Below</b>
                             </p>
                         </div>
                     </div>
@@ -161,7 +172,7 @@ const Projects = () => {
                         <div className="description">
                             <p style={{ fontSize: '15px' }}>
                                 Simple Chat App created for fun and to learn more about
-                                WebSockets. Created using React, Socket.io and Express. < br/>
+                                WebSockets. Created using React, Socket.io and Express. < br />
                                 <b>Link To Github Below</b>
                             </p>
                         </div>
@@ -173,7 +184,41 @@ const Projects = () => {
                         >
                             GitHub
                         </button>
-                        
+
+                    </div>
+
+                </div>
+            </center>
+
+            <PdfHandler fileName={ComingSoon} />
+
+            <center>
+                <div className="ui card" style={{ marginBottom: '5%' }}>
+                    <div className="content">
+                        <div className="header"> Space Traveling </div>
+                        <div className="description">
+                            <p style={{ fontSize: '15px' }}>
+                                Coordinated with a team of three to develop a mobile application that shows the distance and time difference
+                                between two celestian bodies (e.q., planet, star), as part of the HackTx 2021 competition. Designed user interface logic for multi-screen mobile application, functions to calculate desired
+                                variables, and performed code reviews.
+                                Developed using Flutter, Dart, and Auth0.< br />
+                                <b>Link To Devpost and Github Below</b>
+                            </p>
+                        </div>
+                    </div>
+                    <div className="ui buttons">
+                        <button
+                            className="ui black button"
+                            onClick={() => HackTx2021DevPost()}
+                        >
+                            DevPost
+                        </button>
+                        <button
+                            className="ui grey button"
+                            onClick={() => HackTx2021()}
+                        >
+                            GitHub
+                        </button>
                     </div>
 
                 </div>

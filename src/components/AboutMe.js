@@ -50,6 +50,29 @@ const AboutMe = () => {
                     challenge!
                 </p> </center>
 
+                <br />
+
+                <center> <p><u>Code for Good 2021</u></p></center>
+                <center><p>
+                    Over the span of a weekend, I had the privilege to participate in the Code for Good Hackathon
+                    hosted by JPMorgan Chase & Co. where we were given the opportunity to aid one of three nonprofit organization
+                    through our development. My team and I worked with Femergy Ohio, an organization that focuses on the empowerment of
+                    young girls and women, to find a solution to their difficulty in keeping young girls intrigued in a distance platform due to the
+                    recent pandemic. My team and I developed a platform to serve as a safe space for the young girls to express themselves via journal entries
+                    while also providing the mentors the resource to maintain updated with their mentees. Our project focuses on a personalized connection between the mentor
+                    and the mentee to form an everlasting connection.
+                </p> </center>
+
+                <br />
+
+                <center> <p><u>HackTX 2021</u></p></center>
+                <center><p>
+                    Coordinated with a team of three to develop a mobile application that shows the distance and time difference
+                    between two celestian bodies (e.q., planet, star), as part of the HackTx 2021 competition. Designed user interface logic for multi-screen mobile application, functions to calculate desired
+                    variables, and performed code reviews.
+                    Developed using Flutter, Dart, and Auth0.
+                </p> </center>
+
             </div>
         </div>
     )
