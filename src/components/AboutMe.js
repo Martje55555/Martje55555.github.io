@@ -30,12 +30,6 @@ const AboutMe = () => {
 
                 <h3 className="ui centered header"><u>Other Experience</u></h3>
 
-                <center><p><u>Software Developer Mentee <a target='_blank' href={'https://www.codubee.com/'}>@Codubee</a>  6/2021 - 8/2021</u></p></center>
-                <li>Worked on a full-stack math tutorial web application on the backend team, where we got real world experience while being guided by a mentor.</li>
-                <li>Gained experience with Agile/Scrum, Jira, Postman and API development.</li>
-
-                <br />
-
                 <center> <p><u>HackTX 2020</u></p></center>
                 <center><p>
                     Worked on a project with a team which won 2nd place, where we
@@ -48,6 +42,16 @@ const AboutMe = () => {
                     and I did not sleep during the whole duration. The sleepless nights were worth
                     it as we ended up taking 2nd place in the HackTx Wayfair: Hack for Housing Inequality
                     challenge!
+                </p> </center>
+
+                <br />
+
+                <center><p><u>Software Developer Mentee <a target='_blank' href={'https://www.codubee.com/'}>@Codubee</a>  6/2021 - 8/2021</u></p></center>
+                <center><p>
+                Worked on a full-stack math tutorial web application on the backend team, where we got real world experience while being guided by a mentor.
+                Gained experience with Agile/Scrum, Jira, Postman and API development.
+        
+                Link to web-app - <a target="_blank" href={"https://mathskillsmw3-4-front.herokuapp.com"}> MathSkills</a>
                 </p> </center>
 
                 <br />
