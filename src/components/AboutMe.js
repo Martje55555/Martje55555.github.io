@@ -14,6 +14,15 @@ const AboutMe = () => {
 
                 <h3 className="ui centered header"><u>Work Experience</u></h3>
 
+                <center><p><u>Undergraduate Research Assistant 01/2022 - 06/2022</u></p></center>
+                <li>Undergraduate Research Assistant for CREST MECIS at <a target="_blank" href={"https://www.utrgv.edu/innovation/news/news-stories/crest/index.htm"}>UTRGV</a>, funded by the <a target="_blank" href={"https://www.nsf.gov/awardsearch/showAward?AWD_ID=2112650&HistoricalAwards=false"}>National Science Foundation</a></li>
+                <li>Research consists in the area of artificial intelligence, but more specifically autonomous transportation.</li>
+                <li>Current project consists of creating an autonomous vehicle simulator, where one can sit and experience autonomous
+                    transportation with different scenarios.</li>
+                <li>Lead programmer, tasked with creating different scenarios using the CARLA python API.</li>
+
+                <br />
+
                 <center><p><u>Teaching Assistant 9/2021 - 12/2021</u></p></center>
                 <li>Teaching Assistant for the CS Department at <a target="_blank" href={"https://www.utrgv.edu/csci/"}>UTRGV</a>, and the Data Structures and Algorithms course.</li>
                 <li>Assist two classes combined for over 80 students with assignments/projects or any questions they may have.</li>
@@ -48,10 +57,10 @@ const AboutMe = () => {
 
                 <center><p><u>Software Developer Mentee <a target='_blank' href={'https://www.codubee.com/'}>@Codubee</a>  6/2021 - 8/2021</u></p></center>
                 <center><p>
-                Worked on a full-stack math tutorial web application on the backend team, where we got real world experience while being guided by a mentor.
-                Gained experience with Agile/Scrum, Jira, Postman and API development.
-        
-                Link to web-app - <a target="_blank" href={"https://mathskillsmw3-4-front.herokuapp.com"}> MathSkills</a>
+                    Worked on a full-stack math tutorial web application on the backend team, where we got real world experience while being guided by a mentor.
+                    Gained experience with Agile/Scrum, Jira, Postman and API development.
+
+                    Link to web-app - <a target="_blank" href={"https://mathskillsmw3-4-front.herokuapp.com"}> MathSkills</a>
                 </p> </center>
 
                 <br />

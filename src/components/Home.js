@@ -37,17 +37,17 @@ const Home = () => {
                     playing video games, watching sports and training Brazilian Jiu-Jitsu. I previously worked
                     as a Software Engineer Intern at <a href="https://www.lob.com/" target="_blank">Lob </a>
                     where we build APIs to Increase Connectivity Between the Offline and Online Worlds.
-                    I currently work as a TA for the Computer Science department at UTRGV, where I assist with 
-                    the Data Structures and Algorithms course.
+                    I currently work as an Undergraduate Research Assistant in the area of artificical intelligence,
+                    but more specifically in autonomous transportation, a project funded by the NSF.
                 </b></p></center>
 
             </div>
-           
-                <br />
 
-                
-         
-            
+            <br />
+
+
+
+
         </div>
     )
 }
