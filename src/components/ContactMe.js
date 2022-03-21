@@ -6,8 +6,8 @@ import HandleEmail from './HandleEmail.js';
 const ContactMe = () => {
 
     const handleClick = () => {
-        window.open("https://www.linkedin.com/in/jesus-martinez-01b1a31b1") ||
-            window.location.replace("https://www.linkedin.com/in/jesus-martinez-01b1a31b1")
+        window.open("https://www.linkedin.com/in/jesus-e-martinez") ||
+            window.location.replace("https://www.linkedin.com/in/jesus-e-martinez")
     }
 
     return (
