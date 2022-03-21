@@ -1,8 +1,5 @@
 import React from 'react';
-//import './AboutMe.css';
 import './Home.css';
-import combined from '../public/images/babyMeandOlderMe.jpg';
-import lobSign from '../public/images/lobSign.jpg';
 
 const AboutMe = () => {
 
@@ -19,7 +16,7 @@ const AboutMe = () => {
                 <li>Research consists in the area of artificial intelligence, but more specifically autonomous transportation.</li>
                 <li>Current project consists of creating an autonomous vehicle simulator, where one can sit and experience autonomous
                     transportation with different scenarios.</li>
-                <li>Lead programmer, tasked with creating different scenarios using the CARLA python API.</li>
+                <li>Lead programmer, tasked with creating different scenarios using the CARLA python API and training an agent using reinforcement learning.</li>
 
                 <br />
 
@@ -39,28 +36,22 @@ const AboutMe = () => {
 
                 <h3 className="ui centered header"><u>Other Experience</u></h3>
 
-                <center> <p><u>HackTX 2020</u></p></center>
+                <center> <p><u>UTRGV Frontera Devs Lead</u></p></center>
                 <center><p>
-                    Worked on a project with a team which won 2nd place, where we
-                    created a solution to support low income or displaced families on
-                    finding and securing housing or other vital resources. Created an
-                    app using flutter/dart and the google map api that gathers nearby
-                    resources based on user’s location and preference.The hackathon was a
-                    lot of fun as I attended with two of my friends that I work well with,
-                    which made things easier and smoother. The hackathon ran for over 36 hours,
-                    and I did not sleep during the whole duration. The sleepless nights were worth
-                    it as we ended up taking 2nd place in the HackTx Wayfair: Hack for Housing Inequality
-                    challenge!
+                    Coordinated with a team of three to develop a mobile application that shows the distance and time difference
+                    between two celestian bodies (e.q., planet, star), as part of the HackTx 2021 competition. Designed user interface logic for multi-screen mobile application, functions to calculate desired
+                    variables, and performed code reviews.
+                    Developed using Flutter, Dart, and Auth0.
                 </p> </center>
 
                 <br />
 
-                <center><p><u>Software Developer Mentee <a target='_blank' href={'https://www.codubee.com/'}>@Codubee</a>  6/2021 - 8/2021</u></p></center>
+                <center> <p><u>HackTX 2021</u></p></center>
                 <center><p>
-                    Worked on a full-stack math tutorial web application on the backend team, where we got real world experience while being guided by a mentor.
-                    Gained experience with Agile/Scrum, Jira, Postman and API development.
-
-                    Link to web-app - <a target="_blank" href={"https://mathskillsmw3-4-front.herokuapp.com"}> MathSkills</a>
+                    Coordinated with a team of three to develop a mobile application that shows the distance and time difference
+                    between two celestian bodies (e.q., planet, star), as part of the HackTx 2021 competition. Designed user interface logic for multi-screen mobile application, functions to calculate desired
+                    variables, and performed code reviews.
+                    Developed using Flutter, Dart, and Auth0.
                 </p> </center>
 
                 <br />
@@ -78,12 +69,28 @@ const AboutMe = () => {
 
                 <br />
 
-                <center> <p><u>HackTX 2021</u></p></center>
+                <center><p><u>Software Developer Mentee <a target='_blank' href={'https://www.codubee.com/'}>@Codubee</a>  6/2021 - 8/2021</u></p></center>
                 <center><p>
-                    Coordinated with a team of three to develop a mobile application that shows the distance and time difference
-                    between two celestian bodies (e.q., planet, star), as part of the HackTx 2021 competition. Designed user interface logic for multi-screen mobile application, functions to calculate desired
-                    variables, and performed code reviews.
-                    Developed using Flutter, Dart, and Auth0.
+                    Worked on a full-stack math tutorial web application on the backend team, where we got real world experience while being guided by a mentor.
+                    Gained experience with Agile/Scrum, Jira, Postman and API development.
+
+                    Link to web-app - <a target="_blank" href={"https://mathskillsmw3-4-front.herokuapp.com"}> MathSkills</a>
+                </p> </center>
+
+                <br />
+
+                <center> <p><u>HackTX 2020</u></p></center>
+                <center><p>
+                    Worked on a project with a team which won 2nd place, where we
+                    created a solution to support low income or displaced families on
+                    finding and securing housing or other vital resources. Created an
+                    app using flutter/dart and the google map api that gathers nearby
+                    resources based on user’s location and preference.The hackathon was a
+                    lot of fun as I attended with two of my friends that I work well with,
+                    which made things easier and smoother. The hackathon ran for over 36 hours,
+                    and I did not sleep during the whole duration. The sleepless nights were worth
+                    it as we ended up taking 2nd place in the HackTx Wayfair: Hack for Housing Inequality
+                    challenge!
                 </p> </center>
 
             </div>

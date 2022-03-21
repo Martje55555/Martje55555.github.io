@@ -38,7 +38,8 @@ const Home = () => {
                     as a Software Engineer Intern at <a href="https://www.lob.com/" target="_blank">Lob </a>
                     where we build APIs to Increase Connectivity Between the Offline and Online Worlds.
                     I currently work as an Undergraduate Research Assistant in the area of artificical intelligence,
-                    but more specifically in autonomous transportation, a project funded by the NSF.
+                    but more specifically in autonomous transportation, a project funded by the NSF and as a member of the 
+                    <a target={"_blank"} href={"https://fatemehnazari.weebly.com/"}> H-SMART Lab</a>.
                 </b></p></center>
 
             </div>
@@ -53,41 +54,3 @@ const Home = () => {
 }
 
 export default Home;
-
-{/* <h3 className="ui centered header"><u>Work Experience</u></h3>
-
-<center><p><u>Teaching Assistant 9/2021 - 12/2021</u></p></center>
-
-<center><p><u>Software Engineer Intern <a target='_blank' href={'https://www.lob.com/'}>@Lob</a>  6/2021 - 8/2021</u></p></center> */}
-
-{/* <center><p>
-Improved and maintained existing API offerings to provide the best possible service and experience for Lob customers.
-Most recent assignment I worked on was creating endpoints for customers to redact personal information from our DBs (to comply with the GDPR) and integrating said endpoints
-to our API. Previously the way user data was being handled was to manually go into the production database and redact it. Which in practice is
-a big no no. Now with the new endpoints, all that needs to be done is hit it with the correct auth and payload to complete the redaction.
-</p></center> */}
-
-{/* <center><p>Worked on a project with a team which won 2nd place, where we
-    created a solution to support low income or displaced families on
-    finding and securing housing or other vital resources. Created an
-    app using flutter/dart and the google map api that gathers nearby
-    resources based on user’s location and preference.The hackathon was a
-    lot of fun as I attended with two of my friends that I work well with,
-    which made things easier and smoother. The hackathon ran for over 36 hours,
-    and I did not sleep during the whole duration. The sleepless nights were worth
-    it as we ended up taking 2nd place in the HackTx Wayfair: Hack for Housing Inequality
-    challenge!
-</p> </center> */}
-
-
-{/* <center><p><u>Student Work Study 8/2018 - 6/2020</u></p></center>
-<center><p>I was in charge of monitoring a building that contained practice
-    rooms and a computer lab for music majors to use. I made
-    sure everyone complied with the building and computer lab rules.
-    I also worked in an office setting answering phone calls, delivering mail
-    and working with excel.
-</p></center> */}
-
-// <h3 className="ui centered header"><u>Extra</u></h3>
-
-// <center> <p><u>HackTX 2020</u></p></center>
