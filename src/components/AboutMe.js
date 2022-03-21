@@ -38,10 +38,7 @@ const AboutMe = () => {
 
                 <center> <p><u>UTRGV Frontera Devs Lead</u></p></center>
                 <center><p>
-                    Coordinated with a team of three to develop a mobile application that shows the distance and time difference
-                    between two celestian bodies (e.q., planet, star), as part of the HackTx 2021 competition. Designed user interface logic for multi-screen mobile application, functions to calculate desired
-                    variables, and performed code reviews.
-                    Developed using Flutter, Dart, and Auth0.
+                Programs Lead driving the first inaugural Frontera Devs hackathon and leading a team to help us cross the finish line.
                 </p> </center>
 
                 <br />
