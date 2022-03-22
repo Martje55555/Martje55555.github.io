@@ -3,7 +3,7 @@ import { Document, Page, pdfjs } from 'react-pdf/dist/esm/entry.webpack';
 import './Projects.css';
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
-const PdfHandler = ({fileName}) => {
+const PdfHandler = ({ fileName }) => {
     const [numPages, setNumPages] = useState(null);
     const [pageNumber, setPageNumber] = useState(1);
 
@@ -55,7 +55,7 @@ const PdfHandler = ({fileName}) => {
                     </button>
                     <p>Page {pageNumber} of {numPages}, <i className="arrow right icon" /><a download={fileName} href={fileName} title="file name">
                         Download Slides Here
-                        </a></p>
+                    </a></p>
                 </div>
             </center>
         </div >

@@ -1,17 +1,29 @@
 import React from 'react';
+
 import './Home.css';
+import resumePDF from '../public/images/Jesus_Martinez_2022.pdf';
 
 const AboutMe = () => {
+
+    const handleClick = () => {
+        window.open(resumePDF) ||
+            window.location.replace(resumePDF)
+    }
 
     return (
         <div>
             <br />
+
+            <center><a onClick={() => handleClick()} download={resumePDF} title="My Resume">
+                Download My Resume
+            </a></center>
+
             <div className="ui black raised very padded text container segment">
                 <h1 className="ui centered header"><u><b>My Experience</b></u></h1>
 
                 <h3 className="ui centered header"><u>Work Experience</u></h3>
 
-                <center><p><u>Undergraduate Research Assistant 01/2022 - 06/2022</u></p></center>
+                <center><p><u>Undergraduate Research Assistant 01/2022 - (current)</u></p></center>
                 <li>Undergraduate Research Assistant for CREST MECIS at <a target="_blank" href={"https://www.utrgv.edu/innovation/news/news-stories/crest/index.htm"}>UTRGV</a>, funded by the <a target="_blank" href={"https://www.nsf.gov/awardsearch/showAward?AWD_ID=2112650&HistoricalAwards=false"}>National Science Foundation</a></li>
                 <li>Research consists in the area of artificial intelligence, but more specifically autonomous transportation.</li>
                 <li>Current project consists of creating an autonomous vehicle simulator, where one can sit and experience autonomous
@@ -36,9 +48,9 @@ const AboutMe = () => {
 
                 <h3 className="ui centered header"><u>Other Experience</u></h3>
 
-                <center> <p><u>UTRGV Frontera Devs Lead</u></p></center>
+                <center> <p><u>UTRGV Frontera Devs Lead 1/2022 - (current)</u></p></center>
                 <center><p>
-                Programs Lead driving the first inaugural Frontera Devs hackathon and leading a team to help us cross the finish line.
+                    Programs Lead driving the first inaugural Frontera Devs hackathon and leading a team to help us cross the finish line.
                 </p> </center>
 
                 <br />
