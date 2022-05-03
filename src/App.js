@@ -5,7 +5,7 @@ import ContactMe from './components/ContactMe';
 import NavBar from './components/NavBar';
 import AboutMe from './components/AboutMe';
 
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
 
 const App = () => {
 
@@ -19,7 +19,7 @@ const App = () => {
                     <Route path="/MyExperience" element={<AboutMe />} />
                     <Route path="/Projects" element={<Projects />} />
                     <Route path="/ContactMe" element={<ContactMe />} />
-                    <Route path='*' element={<Home />} />
+                    <Route path="*" element={<Navigate to="/AboutMe" />} />
                 </Routes>
             </Router>
         </div>
