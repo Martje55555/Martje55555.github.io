@@ -1,43 +1,46 @@
 import React, { useState } from 'react';
-import { useHistory } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import './NavBar.css'
+
 const NavBar = () => {
-    const history = useHistory();
+    const Navigate = useNavigate();
     const [homeActive, setHomeActive] = useState(false);
     const [aboutMeActive, setAboutHomeActive] = useState(false);
     const [projectsActive, setProjectsActive] = useState(false);
     const [contactMeActive, setContactMeActive] = useState(false);
 
     const home = () => {
-        history.push('/AboutMe');
+        Navigate('AboutMe', { replace: true });
         setHomeActive(!homeActive);
         setAboutHomeActive(false);
         setProjectsActive(false);
         setContactMeActive(false);
 
-    }
+    };
+
     const aboutMe = () => {
-        history.push('/MyExperience');
+        Navigate('AboutMe', { replace: true });
         setHomeActive(false);
         setAboutHomeActive(!aboutMeActive);
         setProjectsActive(false);
         setContactMeActive(false);
-    }
+    };
+
     const projects = () => {
-        history.push('/Projects');
+        Navigate('Projects', { replace: true });
         setHomeActive(false);
         setAboutHomeActive(false);
         setProjectsActive(!projectsActive);
         setContactMeActive(false);
-    }
+    };
+
     const contactMe = () => {
-        history.push('/ContactMe');
+        Navigate('ContactMe', { replace: true });
         setHomeActive(false);
         setAboutHomeActive(false);
         setProjectsActive(false);
         setContactMeActive(!contactMeActive);
-    }
-
+    };
 
     return (
         <div className="ui fluid four item menu ar">
@@ -62,7 +65,7 @@ const NavBar = () => {
             </a>
 
         </div>
-    )
-}
+    );
+};
 
 export default NavBar;

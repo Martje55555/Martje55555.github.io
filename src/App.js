@@ -5,7 +5,7 @@ import ContactMe from './components/ContactMe';
 import NavBar from './components/NavBar';
 import AboutMe from './components/AboutMe';
 
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 const App = () => {
 
@@ -13,17 +13,17 @@ const App = () => {
         <div>
             <Router>
                 <NavBar />
-                <Switch>
-                    <Route exact path="/" component={Home} />
-                    <Route path="/AboutMe" component={Home} />
-                    <Route path="/MyExperience" component={AboutMe} />
-                    <Route path="/Projects" component={Projects} />
-                    <Route path="/ContactMe" component={ContactMe} />
-                    <Route component={Home} />
-                </Switch>
+                <Routes>
+                    <Route exact path="/" element={<Home />} />
+                    <Route path="/AboutMe" element={<Home />} />
+                    <Route path="/MyExperience" element={<AboutMe />} />
+                    <Route path="/Projects" element={<Projects />} />
+                    <Route path="/ContactMe" element={<ContactMe />} />
+                    <Route path='*' element={<Home />} />
+                </Routes>
             </Router>
         </div>
-    )
-}
+    );
+};
 
 export default App;
