@@ -19,7 +19,7 @@ const NavBar = () => {
     };
 
     const aboutMe = () => {
-        Navigate('AboutMe', { replace: true });
+        Navigate('/AboutMe', { replace: true });
         setHomeActive(false);
         setAboutHomeActive(!aboutMeActive);
         setProjectsActive(false);
@@ -27,7 +27,7 @@ const NavBar = () => {
     };
 
     const projects = () => {
-        Navigate('Projects', { replace: true });
+        Navigate('/Projects', { replace: true });
         setHomeActive(false);
         setAboutHomeActive(false);
         setProjectsActive(!projectsActive);
@@ -35,7 +35,7 @@ const NavBar = () => {
     };
 
     const contactMe = () => {
-        Navigate('ContactMe', { replace: true });
+        Navigate('/ContactMe', { replace: true });
         setHomeActive(false);
         setAboutHomeActive(false);
         setProjectsActive(false);

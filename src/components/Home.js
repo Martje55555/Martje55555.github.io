@@ -39,7 +39,8 @@ const Home = () => {
                     where we build APIs to Increase Connectivity Between the Offline and Online Worlds.
                     I currently work as an Undergraduate Research Assistant in the area of artificical intelligence,
                     but more specifically in autonomous transportation, a project funded by the NSF and as a member of the 
-                    <a target={"_blank"} href={"https://fatemehnazari.weebly.com/"}> H-SMART Lab</a>.
+                    <a target={"_blank"} href={"https://fatemehnazari.weebly.com/"}> H-SMART Lab</a>. I am an incoming Software 
+                    Engineer Intern at P&G.
                 </b></p></center>
 
             </div>
