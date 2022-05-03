@@ -5,22 +5,24 @@ import ContactMe from './components/ContactMe';
 import NavBar from './components/NavBar';
 import AboutMe from './components/AboutMe';
 
-import { BrowserRouter as Router, HashRouter, Route, Redirect } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 const App = () => {
 
     return (
         <div>
-            <HashRouter>
+            <Router>
                 <NavBar />
-                <Route exact path="/" component={Home} />
-                <Route path="/AboutMe" component={Home} />
-                <Route path="/MyExperience" component={AboutMe} />
-                <Route path="/Projects" component={Projects} />
-                <Route path="/ContactMe" component={ContactMe} />
-            </HashRouter>
+                <Switch>
+                    <Route exact path="/" component={Home} />
+                    <Route path="/AboutMe" component={Home} />
+                    <Route path="/MyExperience" component={AboutMe} />
+                    <Route path="/Projects" component={Projects} />
+                    <Route path="/ContactMe" component={ContactMe} />
+                    <Route component={Home} />
+                </Switch>
+            </Router>
         </div>
-
     )
 }
 
