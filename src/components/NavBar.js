@@ -10,7 +10,7 @@ const NavBar = () => {
     const [contactMeActive, setContactMeActive] = useState(false);
 
     const home = () => {
-        Navigate('AboutMe', { replace: true });
+        Navigate('/AboutMe', { replace: true });
         setHomeActive(!homeActive);
         setAboutHomeActive(false);
         setProjectsActive(false);
@@ -19,7 +19,7 @@ const NavBar = () => {
     };
 
     const aboutMe = () => {
-        Navigate('/AboutMe', { replace: true });
+        Navigate('/MyExperience', { replace: true });
         setHomeActive(false);
         setAboutHomeActive(!aboutMeActive);
         setProjectsActive(false);
