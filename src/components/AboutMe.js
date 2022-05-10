@@ -1,7 +1,7 @@
 import React from 'react';
 
 import './Home.css';
-import resumePDF from '../public/images/Jesus_Martinez_2022.pdf';
+import resumePDF from '../public/images/Jesus_Martinez_Resume.pdf';
 
 const AboutMe = () => {
 
