@@ -23,7 +23,12 @@ const AboutMe = () => {
 
                 <h3 className="ui centered header"><u>Work Experience</u></h3>
 
-                <center><p><u>Undergraduate Research Assistant 01/2022 - (current)</u></p></center>
+                <center><p><u>Software Engineer Intern <a target='_blank' href={'https://www.lob.com/'}>@ Procter & Gamble (P&G) </a>  6/2022 - (Current)</u></p></center>
+                <li>Intern on the Cloud FinOps Team</li>
+
+                <br />
+
+                <center><p><u>Undergraduate Research Assistant 01/2022 - (Current)</u></p></center>
                 <li>Undergraduate Research Assistant for CREST MECIS at <a target="_blank" href={"https://www.utrgv.edu/innovation/news/news-stories/crest/index.htm"}>UTRGV</a>, funded by the <a target="_blank" href={"https://www.nsf.gov/awardsearch/showAward?AWD_ID=2112650&HistoricalAwards=false"}>National Science Foundation</a></li>
                 <li>Research consists in the area of artificial intelligence, but more specifically autonomous transportation.</li>
                 <li>Current project consists of creating an autonomous vehicle simulator, where one can sit and experience autonomous
