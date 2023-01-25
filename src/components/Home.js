@@ -1,6 +1,4 @@
 import React from 'react';
-import myPic from '../public/images/picture.jpg';
-import combined from '../public/images/babyMeandOlderMe.jpg';
 import my2ndPic from '../public/images/secondPic.png';
 //import './Home.css';
 import './AboutMe.css';
@@ -32,11 +30,9 @@ const Home = () => {
                     I come from a family of 6 in a small city in Texas called Alton.
                     I attended High School at Mission High School and graduated in 2018.
                     I graduated as a Mission Merit, and in the top 10% of my class. I am
-                    currently a Senior attending the University of Texas Rio Grande Valley,
-                    pursuing a degree in Computer Engineering. I am currently a Data Science
-                    Intern at USDA for the Fall of 2022. My interests include Machine Learning, 
-                    Back-End Development, and Application Security. When I am not studying or working
-                    my hobbies include Brazilian Jiu-Jitsu (BJJ), Basketball, and Video Games.
+                    a recent grad at the University of Texas Rio Grande Valley, with a 
+                    Bachelor's of Science in Computer Engineering. I am currently a Cloud Data Engineer 
+                    at Procter & Gamble (P&G) and a Freelance Engineer/Technical Writer.
                 </b></p></center>
 
             </div>

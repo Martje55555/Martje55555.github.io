@@ -2,7 +2,7 @@ import React from 'react';
 import HomeMeSlides from '../public/images/HomeMeSlides.pdf';
 import HangManSlides from '../public/images/Hangman.pdf';
 import MeowBotSlides from '../public/images/MeowBot.pdf';
-import ComingSoon from '../public/images/comingSoon.pdf';
+import ReactChatApp from '../public/images/ReactChatApp.png';
 import Spacetravel from '../public/images/SpaceTravel.pdf';
 import PdfHandler from './PdfHandler.js';
 import './Projects.css';
@@ -164,7 +164,7 @@ const Projects = () => {
                 </div>
             </center>
 
-            <PdfHandler fileName={ComingSoon} />
+            <PdfHandler fileName={ReactChatApp} />
 
             <center>
                 <div className="ui card" style={{ marginBottom: '5%' }}>

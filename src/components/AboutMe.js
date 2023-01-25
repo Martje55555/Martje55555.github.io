@@ -23,6 +23,16 @@ const AboutMe = () => {
 
                 <h3 className="ui centered header"><u>Work Experience</u></h3>
 
+                <center><p><u>Cloud Data Engineer <a target='_blank' href={'https://www.pgcareers.com/'}>@ Procter & Gamble (P&G) </a>  01/2023 - current </u></p></center>
+                <li>I am part of P&G's Cloud Team, more specifically in the FinOps space, helping drive cloud cost saving solutions to the company.</li>
+                <li>Responsible for designing, building, and maintaining data systems in cloud environments.</li>
+                <br/>
+
+                <center><p><u>Freelance Technical Writer <a target='_blank' href={'https://hackr.io/'}>@ Hackr.io </a>  11/2022 - current </u></p></center>
+                <li>Responsible for creating informative and engaging content about the latest technology trends and developments.</li>
+                <li>Research and analyze the latest technology products, services, and systems to provide insightful and educational content to readers.</li>
+                <br />
+
                 <center><p><u>Data Science Intern <a target='_blank' href={'https://www.usda.gov/da/ohs'}>@ U.S. Department of Agriculture (USDA) </a>  06/2022 - 8/2022 </u></p></center>
                 <li>Currently interning at USDA in the Emergency Management Branch, through the Hispanic Association of Colleges and Universities internship program (HACU) </li>
                 <br />
