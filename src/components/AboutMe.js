@@ -1,7 +1,7 @@
 import React from 'react';
 
 import './Home.css';
-import resumePDF from '../public/images/Jesus_Martinez_2022.pdf';
+import resumePDF from '../public/images/Jesus_Martinez_2023.pdf';
 
 const AboutMe = () => {
 
@@ -24,55 +24,65 @@ const AboutMe = () => {
                 <h3 className="ui centered header"><u>Work Experience</u></h3>
 
                 <center><p><u>Cloud Data Engineer <a target='_blank' href={'https://www.pgcareers.com/'}>@ Procter & Gamble (P&G) </a>  01/2023 - current </u></p></center>
-                <li>I am part of P&G's Cloud Team, more specifically in the FinOps space, helping drive cloud cost saving solutions to the company.</li>
-                <li>Responsible for designing, building, and maintaining data systems in cloud environments.</li>
+                <li>I am part of P&G's Cloud Team, more specifically in the FinOps space, helping drive cloud cost saving solutions to the company</li>
+                <li>Responsible for designing, building, and maintaining data systems in cloud environments</li>
+                <li>Create analysis on petabytes of data using Databricks to create reports for leadership</li>
                 <br/>
 
-                <center><p><u>Freelance Technical Writer <a target='_blank' href={'https://hackr.io/'}>@ Hackr.io </a>  11/2022 - current </u></p></center>
-                <li>Responsible for creating informative and engaging content about the latest technology trends and developments.</li>
-                <li>Research and analyze the latest technology products, services, and systems to provide insightful and educational content to readers.</li>
+                <center><p><u>Freelance Technical Writer <a target='_blank' href={'https://hackr.io/'}>@ Hackr.io </a>  11/2022 - 04/2023 </u></p></center>
+                <li>Responsible for creating informative and engaging content about the latest technology trends and developments</li>
+                <li>Research and analyze the latest technology products, services, and systems to provide insightful and educational content to readers</li>
                 <br />
 
                 <center><p><u>Data Science Intern <a target='_blank' href={'https://www.usda.gov/da/ohs'}>@ U.S. Department of Agriculture (USDA) </a>  06/2022 - 8/2022 </u></p></center>
-                <li>Currently interning at USDA in the Emergency Management Branch, through the Hispanic Association of Colleges and Universities internship program (HACU) </li>
+                <li>Intern at USDA in the Emergency Management Branch, through the Hispanic Association of Colleges and Universities internship program (HACU) </li>
                 <br />
 
                 <center><p><u>Software Engineer Intern <a target='_blank' href={'https://www.lob.com/'}>@ Procter & Gamble (P&G) </a>  06/2022 - 8/2022 </u></p></center>
-                <li>Developed an end-to-end automated Azure SQL Database & Virtual Machine optimization process using Machine Learning to determine rightsizing candidates and savings value generated. Estimated annual savings- $2.3 Million.</li>
-                <li>Designed an automated solution to perform monthly allocation of Amazon Web Services (AWS) Backup Charges.</li>
-                <li>Created a system to fairly split charges between the application teams that consumed backup charges.</li>
+                <li>Developed an end-to-end automated Azure SQL Database & Virtual Machine optimization process using Machine Learning to determine rightsizing candidates and savings value generated. Estimated annual savings- $2.3 Million</li>
+                <li>Designed an automated solution to perform monthly allocation of Amazon Web Services (AWS) Backup Charges</li>
+                <li>Created a system to fairly split charges between the application teams that consumed backup charges</li>
                 <li>Discovered unused AWS DynamoDB resources and EC2 snapshots to then be decommissioned thus cutting costs. Estimated Savings ~ $40k</li>
-                <li>Presented Project Results at both the midpoint and endpoint of the internship to ITS Leadership.</li>
+                <li>Presented Project Results at both the midpoint and endpoint of the internship to ITS Leadership</li>
                 <br />
 
-                <center><p><u>Undergraduate Research Assistant 01/2022 - 06/2022</u></p></center>
+                <center><p><u>Undergraduate Research Assistant  01/2022 - 06/2022</u></p></center>
                 <li>Undergraduate Research Assistant for CREST MECIS at <a target="_blank" href={"https://www.utrgv.edu/innovation/news/news-stories/crest/index.htm"}>UTRGV</a>, funded by the <a target="_blank" href={"https://www.nsf.gov/awardsearch/showAward?AWD_ID=2112650&HistoricalAwards=false"}>National Science Foundation</a></li>
-                <li>Research consists in the area of artificial intelligence, but more specifically autonomous transportation.</li>
+                <li>Research consists in the area of artificial intelligence, but more specifically autonomous transportation</li>
                 <li>Current project consists of creating an autonomous vehicle simulator, where one can sit and experience autonomous
-                    transportation with different scenarios.</li>
-                <li>Lead programmer, tasked with creating different scenarios using the CARLA python API and training an agent using reinforcement learning.</li>
+                    transportation with different scenarios</li>
+                <li>Lead programmer, tasked with creating different scenarios using the CARLA python API and training an agent using reinforcement learning</li>
 
                 <br />
 
                 <center><p><u>Teaching Assistant 09/2021 - 12/2021</u></p></center>
-                <li>Teaching Assistant for the CS Department at <a target="_blank" href={"https://www.utrgv.edu/csci/"}>UTRGV</a>, and the Data Structures and Algorithms course.</li>
-                <li>Assist two classes combined for over 80 students with assignments/projects or any questions they may have.</li>
-                <li>I also grade assignments and projects which are written in C++.</li>
+                <li>Teaching Assistant for the CS Department at <a target="_blank" href={"https://www.utrgv.edu/csci/"}>UTRGV   </a>, and the Data Structures and Algorithms course</li>
+                <li>Assist two classes combined for over 80 students with assignments/projects or any questions they may have</li>
+                <li>I also grade assignments and projects which are written in C++</li>
 
                 <br />
 
-                <center><p><u>Software Engineer Intern <a target='_blank' href={'https://www.lob.com/'}>@Lob</a>  06/2021 - 09/2021</u></p></center>
-                <li>Improved and maintained existing API offerings to provide the best possible service and experience for Lob customers.</li>
-                <li>Created endpoints for employees to process requests to redact personal information from databases which reduced workload from engineers and possible user error.</li>
-                <li>Created development environment using Docker for local development and testing for redactions project.</li>
-                <li>Increased security and overall API performance by upgrading dependencies in a large codebase.</li>
+                <center><p><u>Software Engineer Intern <a target='_blank' href={'https://www.lob.com/'}>@Lob    </a>  06/2021 - 09/2021</u></p></center>
+                <li>Improved and maintained existing API offerings to provide the best possible service and experience for Lob customers</li>
+                <li>Created endpoints for employees to process requests to redact personal information from databases which reduced workload from engineers and possible user error</li>
+                <li>Created development environment using Docker for local development and testing for redactions project</li>
+                <li>Increased security and overall API performance by upgrading dependencies in a large codebase</li>
                 <li>Read about some of the work I did while interning at Lob and protecting privacy with data redaction - <a target="_blank" href={"https://www.lob.com/blog/protecting-privacy-with-data-redaction"}>Blog Post</a></li>
 
                 <h3 className="ui centered header"><u>Other Experience</u></h3>
 
-                <center> <p><u>UTRGV Frontera Devs Lead 01/2022 - (current)</u></p></center>
+                <center> <p><u>Industry Advisor 01/2023 - (current)</u></p></center>
                 <center><p>
-                    Programs Lead driving the first inaugural Frontera Devs hackathon and leading a team to help us cross the finish line.
+                Conduct 1:1 or 1:Many meetings as a mentor to undergraduate students to answer any questions whether it be industry or academic wise.
+                Volunteer to lead technical workshops for Frontera Devs members which consists of university students.
+                </p> </center>
+
+                <br />
+
+                <center> <p><u>UTRGV Frontera Devs Lead 01/2022 - 01/2023</u></p></center>
+                <center><p>
+                Our mission is to empower developers across the Rio Grande Valley with the resources and support they need to become leaders in tech. 
+                Assisted in driving the first inaugural Frontera Devs hackathon and leading a team to help us cross the finish line.
                 </p> </center>
 
                 <br />
